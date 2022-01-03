@@ -4,7 +4,7 @@
 	<title>Транслировать код php класса в код js класса </title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 1.23.1" />
-	<link rel="stylesheet" type="text/css" href="/s/css.css">
+	<link rel="stylesheet" type="text/css" href="/s/css.css?1">
 	<script type="text/javascript" src="/j/vendor/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="/j/tsiteapp.js"></script>
 	
@@ -29,7 +29,7 @@
 				<a href="./../index.html">Зачем это</a>
 				<a href="./../index.html#as_include">Как подключить</a>
 				<a href="./../index.html#quick_start">Краткая справка</a>
-				<a href="./../php2js/class.html">Транслировать php -> js сейчас</a>
+				<a href="#">Транслировать php -> js сейчас</a>
 				<a href="https://raw.githubusercontent.com/lamzin-andrey/php2jstranslator/functions/php.js" target="_blank">Скачать php.js</a>
 			</nav>
 			<div class="beta right">
@@ -46,11 +46,23 @@
 				 Компиляция Apache Cordova приложений для Android онлайн						</a></p>
 		</div-->
 		
-		<div style="border:1px solid red;max-width:800px;margin:0 auto;">
-			<p><a href="https://andryuxa.ru/portfolio/web-razrabotka/saity/fastxampp/extensions_for_php_7.3.12_linux/" style="margin-left:14px; font-weight:bold;color:green; text-decoration:none;"><span style="line-height:25px;vertical-align:middle;display:inline-block;margin-right:8px;">
-				<img src="https://andryuxa.ru/portfolio/web-razrabotka/saity/fastxampp/img/xampp.png" style="height:46px;"></span>
-				 imagick.so, xdebug.so, memcached.so for linux PHP-7.3.12 amd64 (64 bits) </a></p>
-		</div>
+		
+		<?php 
+			include $_SERVER['DOCUMENT_ROOT'] . '/q/q/ip/SxGeo22_API/cgeoip.php';
+			CGeoIp::getInfo($city, $country);
+			$country = strtoupper($country);
+		 ?>
+		
+		<?php if ('RU' !== $country): ?>
+			<?php include $_SERVER['DOCUMENT_ROOT'] . '/p/units/osago/tpl/o/banner.php'; ?>
+		<?php else :?>
+		
+			<div style="border:1px solid red;max-width:800px;margin:0 auto;">
+				<p><a href="https://andryuxa.ru/portfolio/web-razrabotka/saity/fastxampp/extensions_for_php_7.3.12_linux/" style="margin-left:14px; font-weight:bold;color:green; text-decoration:none;"><span style="line-height:25px;vertical-align:middle;display:inline-block;margin-right:8px;">
+					<img src="https://andryuxa.ru/portfolio/web-razrabotka/saity/fastxampp/img/xampp.png" style="height:46px;"></span>
+					 imagick.so, xdebug.so, memcached.so for linux PHP-7.3.12 amd64 (64 bits) </a></p>
+			</div>
+		<?php endif?>
 		<h1 id="why">Транслировать php to js</h1>
 		<div class="left">
 			<p>Вставьте в поле код одного php класса</p>

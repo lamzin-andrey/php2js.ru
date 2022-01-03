@@ -21,7 +21,7 @@
 				<a href="#why">Зачем это</a>
 				<a href="#as_include">Как подключить</a>
 				<a href="#quick_start">Краткая справка</a>
-				<a href="./php2js/class.html">Транслировать php -> js сейчас</a>
+				<a href="./php2js/class.php">Транслировать php -> js сейчас</a>
 				<a href="https://raw.githubusercontent.com/lamzin-andrey/php2jstranslator/functions/php.js" target="_blank">Скачать php.js</a>
 			</nav>
 			<div class="beta right">

@@ -23,7 +23,7 @@ function init() {
 /** Драйвер класса */
 function main() {
 	var s = e('in').value, i, r = [];
-	if (!~location.href.indexOf('class.html')) {
+	if (!~location.href.indexOf('class.php')) {
 		e('out').value = Phpjs.translateFunction(s);
 	} else {
 		e('out').value = Phpjs.translate(s);

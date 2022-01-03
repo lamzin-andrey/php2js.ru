@@ -51,7 +51,7 @@
 			$country = strtoupper($country);
 		 ?>
 		
-		<?php if ('RU' !== $country): /* TODO ===  */ ?>
+		<?php if ('RU' === $country): ?>
 			<?php include __DIR__ . '/p/units/osago/tpl/o/banner.php'; ?>
 		<?php else :?>
 		<div style="border:1px solid red;max-width:800px;margin:0 auto;">

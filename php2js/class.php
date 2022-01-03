@@ -53,7 +53,7 @@
 			$country = strtoupper($country);
 		 ?>
 		
-		<?php if ('RU' !== $country): ?>
+		<?php if ('RU' === $country): ?>
 			<?php include $_SERVER['DOCUMENT_ROOT'] . '/p/units/osago/tpl/o/banner.php'; ?>
 		<?php else :?>
 		

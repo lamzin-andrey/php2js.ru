@@ -17,6 +17,7 @@
 	<script src="/j/php2jstranslator/test/testclassparser.js" type="text/javascript"></script>
 	<script src="/j/landlib/net/rest.es5.js" type="text/javascript"></script>
 	<script src="/j/0.js" type="text/javascript"></script>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7827647386416612"    crossorigin="anonymous"></script>
 </head>
 <body>
 	<header class="mainhead">

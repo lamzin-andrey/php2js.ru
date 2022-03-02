@@ -15,15 +15,17 @@
 	
 	<header class="mainhead">
 		<div class="mainhead-content">
-			<div class="logotext left">
-				<div>PHP2JS</div>
-				<div class="textsmall">translator</div>
-			</div>
+			<a href="/" class="inline">
+				<div class="logotext left">
+					<div>PHP2JS</div>
+					<div class="textsmall">translator</div>
+				</div>
+			</a>
 			<nav class="left topmenulinks">
 				<a href="#why">Зачем это</a>
 				<a href="#as_include">Как подключить</a>
 				<a href="#quick_start">Краткая справка</a>
-				<a href="./php2js/class.php">Транслировать php -> js сейчас</a>
+				<a href="/php2js/class.php">Транслировать php -> js сейчас</a>
 				<a href="https://raw.githubusercontent.com/lamzin-andrey/php2jstranslator/functions/php.js" target="_blank">Скачать php.js</a>
 			</nav>
 			<div class="beta right">
@@ -47,58 +49,8 @@
 		</div-->
 		
 		
-		<?php 
-			include __DIR__ . '/q/q/ip/SxGeo22_API/cgeoip.php';
-			CGeoIp::getInfo($city, $country);
-			$country = strtoupper($country);
-		 ?>
+		<?php include __DIR__ . '/p/units/banner/dto/dtobanner.php'; ?>
 		
-		<?php if ('RU' === $country): ?>
-			<?php /*include __DIR__ . '/p/units/osago/tpl/o/banner.php'; */?>
-			<div style="border:1px solid red;max-width:800px;margin:0 auto; color:white; background-color: #290f4d;">
-				<div>
-					<a href="https://andryuxa.ru/portfolio/desktop/generator_koda_dlya_dto_klassov/" style="margin-left:14px; font-weight:bold;color:green; text-decoration:none;"><span style="line-height:25px;vertical-align:middle;display:inline-block;margin-right:8px;">
-						<div>
-							<div style="height:176px; width:234px; display:inline-block;">
-								<img alt="DTO" src="https://andryuxa.ru/i/DTO2-rls.jpg" style="height:176px; vertical-align:middle;">
-							</div>
-							<div style="display:inline-block;">
-								<div style="font-size: 48px;margin-left: 132px;vertical-align: top;line-height: 73px;">
-									<span style="color:white">DTO</span>
-									<span style="color:white">PHP</span>
-								</div>
-								<span style="color: #366c2a;font-size: 55px;line-height: 85px;vertical-align: bottom;margin-left: 75px;display: inline-block;height: 24px;">Code Generator</span>
-							</div>
-							
-							
-						</div>
-						
-					</a>
-				</div>
-			</div>
-		<?php else :?>
-		<div style="border:1px solid red;max-width:800px;margin:0 auto; color:white; background-color: #290f4d;">
-			<div>
-				<a href="https://andryuxa.ru/blog/dto_code_generator_for_php/" style="margin-left:14px; font-weight:bold;color:green; text-decoration:none;"><span style="line-height:25px;vertical-align:middle;display:inline-block;margin-right:8px;">
-					<div>
-						<div style="height:176px; width:234px; display:inline-block;">
-							<img alt="DTO" src="https://andryuxa.ru/i/DTO2-rls.jpg" style="height:176px; vertical-align:middle;">
-						</div>
-						<div style="display:inline-block;">
-							<div style="font-size: 48px;margin-left: 132px;vertical-align: top;line-height: 73px;">
-								<span style="color:white">DTO</span>
-								<span style="color:white">PHP</span>
-							</div>
-							<span style="color: #366c2a;font-size: 55px;line-height: 85px;vertical-align: bottom;margin-left: 75px;display: inline-block;height: 24px;">Code Generator</span>
-						</div>
-						
-						
-					</div>
-					
-				</a>
-			</div>
-		</div>
-		<?php endif ?>
 		
 		
 		<h1 id="why">Зачем это</h1>

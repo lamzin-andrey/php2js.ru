@@ -172,3 +172,10 @@ footer {
 .h70 {
 	height:75%;
 }
+
+a {
+  text-decoration: none;
+}
+.inline {
+	display:inline!important;
+}

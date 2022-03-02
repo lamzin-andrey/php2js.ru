@@ -60,7 +60,7 @@
 					<a href="https://andryuxa.ru/portfolio/desktop/generator_koda_dlya_dto_klassov/" style="margin-left:14px; font-weight:bold;color:green; text-decoration:none;"><span style="line-height:25px;vertical-align:middle;display:inline-block;margin-right:8px;">
 						<div>
 							<div style="height:176px; width:234px; display:inline-block;">
-								<img src="http://mh.loc/i/DTO2-rls.jpg" style="height:176px; vertical-align:middle;">
+								<img alt="DTO" src="https://andryuxa.ru/i/DTO2-rls.jpg" style="height:176px; vertical-align:middle;">
 							</div>
 							<div style="display:inline-block;">
 								<div style="font-size: 48px;margin-left: 132px;vertical-align: top;line-height: 73px;">

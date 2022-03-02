@@ -3,7 +3,7 @@
 <head>
 	<title>Converted php class code to the javascript es5 code </title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-	<link rel="stylesheet" type="text/css2" href="/s/css.css">
+	<link rel="stylesheet" type="text/css" href="/s/css.css?2">
 	<script type="text/javascript" src="/j/vendor/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="/j/tsiteapp.js"></script>
 	

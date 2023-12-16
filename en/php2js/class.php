@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<meta name="viewport" content="	initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi=device-dpi,	width=device-width,height=device-height,shrink-to-fit=no">
 <head>
 	<title>Converted php class code to the javascript es5 code </title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -13,9 +14,13 @@
 	<script src="/j/php2jstranslator/stringprocessor.js" type="text/javascript"></script>
 	<script src="/j/php2jstranslator/classparser.js" type="text/javascript"></script>
 	<script src="/j/landlib/net/rest.es5.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/j/landlib/dom/android-browser-2.3.6/micron.js"></script>
+	<script type="text/javascript" src="/j/landlib/dom/plugins/night.js"></script>
+	
+	
 	<script src="/j/0.js" type="text/javascript"></script>
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7827647386416612"
-     crossorigin="anonymous"></script>
+	<!--script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7827647386416612"
+     crossorigin="anonymous"></script-->
 </head>
 <body>
 	<header class="mainhead">

@@ -17,15 +17,25 @@ body {
 	color:#fff;
 }
 .mainhead {
-	position:fixed;
+	position:relative;
 	width:100%;
 	z-index:2;
 	left:0px;
 	top:0px;
 }
-.mainhead-content {
-	margin:0 auto;
+@media(min-width:1162px) {
+	.mainhead {
+		position:fixed;
+	}
 }
+.dtoBannerFS {
+	font-size: 48px;margin-left: 132px;vertical-align: top;line-height: 73px;
+}
+.dtoBannerSS {
+	color: #366c2a;font-size: 55px;line-height: 85px;vertical-align: bottom;margin-left: 75px;display: inline-block;height: 24px;
+}
+
+
 .mainhead nav{
 	display: inline-block;
     line-height: 92px;
@@ -38,6 +48,27 @@ body {
 	min-width:170px;
 	color:#fff;
 }
+@media(max-width:1161px) {
+	.mainhead nav, .topmenulinks{
+		text-align:left;
+		margin-left:10px;
+	}
+	.dtoBannerFS, .dtoBannerSS {
+	  font-size: 16px;
+	  margin-left: 0px;
+	  vertical-align: top;
+	  line-height: 29px;
+	}
+	.dtoBannerSS {
+		margin-bottom: 24px;
+	}
+}
+
+
+.mainhead-content {
+	margin:0 auto;
+}
+
 .logotext {
 	color:#fff;
 	width:150px;
@@ -52,7 +83,7 @@ body {
 	font-size:12px;	
 	margin-top:12px;
 	color:#fff;
-	margin-right:12px;
+	margin-right:24px;
 	width:12px;
 }
 .left{
@@ -178,4 +209,19 @@ a {
 }
 .inline {
 	display:inline!important;
+}
+
+
+
+/**
+ * night
+ * */
+body.night, body.night textarea {
+	background-color:#000;
+	color:aqua;
+}
+
+body.night a{
+	color:#FFF;
+	font-weight:bold;
 }

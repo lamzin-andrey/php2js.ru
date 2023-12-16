@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<meta name="viewport" content="	initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi=device-dpi,	width=device-width,height=device-height,shrink-to-fit=no">
 <head>
 	<title>PHP code to js code converter</title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -8,8 +9,11 @@
 	<link rel="stylesheet" type="text/css" href="/s/css.css?2">
 	<script type="text/javascript" src="/j/vendor/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="/j/tsiteapp.js"></script>
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7827647386416612"
-     crossorigin="anonymous"></script>
+	
+	<script type="text/javascript" src="/j/landlib/dom/android-browser-2.3.6/micron.js"></script>
+	<script type="text/javascript" src="/j/landlib/dom/plugins/night.js"></script>
+	<!--script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7827647386416612"
+     crossorigin="anonymous"></script-->
 </head>
 <body>
 	<header class="mainhead">

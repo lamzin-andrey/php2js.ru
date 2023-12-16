@@ -13,11 +13,11 @@
 						<img alt="DTO" src="https://andryuxa.ru/i/DTO2-rls.jpg" style="height:176px; vertical-align:middle;">
 					</div>
 					<div style="display:inline-block;">
-						<div style="font-size: 48px;margin-left: 132px;vertical-align: top;line-height: 73px;">
+						<div class="dtoBannerFS">
 							<span style="color:white">DTO</span>
 							<span style="color:white">PHP</span>
 						</div>
-						<span style="color: #366c2a;font-size: 55px;line-height: 85px;vertical-align: bottom;margin-left: 75px;display: inline-block;height: 24px;">Code Generator</span>
+						<span class="dtoBannerSS">Code Generator</span>
 					</div>
 					
 					

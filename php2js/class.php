@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
+	<meta name="viewport" content="	initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi=device-dpi,	width=device-width,height=device-height,shrink-to-fit=no">
 	<title>Транслировать код php класса в код js класса </title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 1.23.1" />
 	<link rel="stylesheet" type="text/css" href="/s/css.css?2">
 	<script type="text/javascript" src="/j/vendor/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="/j/tsiteapp.js"></script>
+	
+	<script type="text/javascript" src="/j/landlib/dom/android-browser-2.3.6/micron.js"></script>
+	<script type="text/javascript" src="/j/landlib/dom/plugins/night.js"></script>
 	
 	<link rel="stylesheet" href="/s/0.css" type="text/css"/>
 	<script src="/j/php2jstranslator/lib.js" type="text/javascript"></script>
@@ -17,8 +21,8 @@
 	<script src="/j/php2jstranslator/test/testclassparser.js" type="text/javascript"></script>
 	<script src="/j/landlib/net/rest.es5.js" type="text/javascript"></script>
 	<script src="/j/0.js" type="text/javascript"></script>
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7827647386416612"
-     crossorigin="anonymous"></script>
+	<!--script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7827647386416612"
+     crossorigin="anonymous"></script-->
 </head>
 <body>
 	<header class="mainhead">

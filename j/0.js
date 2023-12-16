@@ -1,4 +1,3 @@
-window.e = function(i) {return document.getElementById(i);}
 window.onload = init;
 function init() {
 	var KEY = 'd8sfldspgj';
